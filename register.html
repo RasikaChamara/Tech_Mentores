@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="styles/register.css">
+</head>
+<body>
+	<div class="register"><h1>Register Here</h1></div>
+	<div class="regf">
+		<form>
+			<div id="name">
+				<h2 class="name">Name</h2>
+				<input class="fname" type="text" name="f_name"><br>
+				<label class="firstlabel">first name</label>
+				<input class="lname" type="text" name="l_name">
+				<label class="lstlabel">last name</label>
+			</div>
+
+			<h2 id="gender">Gernder</h2>
+			<label class="radio">
+				<input type="radio" name="genderoption" value="male">Male
+				<input type="radio" name="genderoption" value="female">Female<br>
+			</label>
+
+			<h2 class="name">Date of birth</h2>
+			<input class="dob" type="Date" name="dob">
+
+			<h2 class="name">Address</h2>
+			<input class="address" type="text" name="address">
+
+			<h2 class="name">E-mail</h2>
+			<input class="email" type="text" name="email">
+
+			<h2 class="name">Phone</h2>
+			<input class="code" type="text" name="area_code">
+			<label class="a-code">Area Code</label>
+			<input class="number" type="text" name="phone">
+			<label class="p-number">Phone No</label>
+
+			<h2 class="name">Course Interest</h2>
+			<select class="option" name="courses">
+				<option disabled="disabled" selected="selected">--Choose Here--</option>
+				<option>Artificial Intelligence and Implementation (Diploma)</option>
+				<option>Artificial Intelligence and Implementation (Degree)</option>
+				<option>Software Development and Engineering (Diploma)</option>
+				<option>Software Development and Engineering (Degree)</option>
+				<option>Android Development (Diploma)</option>
+				<option>Machine Learning (Certificate)</option>
+				<option>Information Systems Management (Diploma)</option>
+			</select>
+
+			<h2 class="name">Entry Level</h2>
+			<select class="option" name="el">
+				<option disabled="disabled" selected="selected">--Choose Here--</option>
+				<option>After G.C.E(O/L)</option>
+				<option>After G.C.E(A/L)</option>
+				<option>Undergraduate</option>
+				<option>Postgraduate</option>
+				<option>School Student</option>
+			</select>
+			<h2 class="final">After you register you will recieve a email with registration number and details for exam you must pass this entry exam before enroll the course.<br>Please fill every field otherwise you won't recieve any email.</h2>
+			<button type="button" onclick="window.location.href='index.html'"">REGISTER</button>
+		</form>
+	</div>
+</body>
+</html>

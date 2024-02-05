@@ -1,0 +1,67 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: serif;
+}
+
+.main3{
+	background-image: url(#);
+	height:100vh;
+	width:100%;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.icons{
+	
+	margin-left: 10px;
+	display: flex;
+	height:40px;
+}
+
+#back{
+	position : sticky;
+	float:right;
+	height:40px;
+	width:40px;
+}
+
+.category1{
+	margin-top: 15px;
+}
+
+.heading1{
+	text-align: center;
+	color:#00ab;
+}
+
+h4{
+	margin-left: 10px;
+}
+
+h3{
+	margin-left: 15px;
+	text-align: center;
+}
+
+.contact{
+	margin-top:50px;
+}
+
+img{
+	height: 15px;
+	width: 15px;
+
+}
+
+.tel{
+	margin-left: 100px;
+}
+
+#logo{
+	height:800px;
+	width:800px;
+	margin-top: 20px;
+	margin-left: 300px;
+}

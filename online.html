@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Education</title>
+	<link rel="stylesheet" type="text/css" href="styles/online.css">
+</head>
+<body>
+	<div class="main6">
+		<div class="main5">
+		<div class="icons">
+			<a href="index.html">
+				<img id="back" src="images/back-arrow.png">
+			</a>
+		</div>
+		<h2><u>Education Platform</u></h2>
+		<div class="head1">
+			<p class="p1">For the online education we provide every student online platform for interact with teachers and students.</p><br>
+			<p class="p2"><b>#TM Class-</b> <i>This is a class for every subjects. You can find details and progress of subject.</i><br><b>#TechMentores Learn-</b> <i>Any students can enroll this and learn by Themselves any subjects.</i></p>
+		</div>
+
+		<h2><u>Teaching Methods</u></h2>
+		<div class="head1">
+			<p class="p1">We are using different methods for teaching.For the teaching we are using Zoom, Ms Teams likewise platforms and we provide youtube videos for further education.</p><br>
+		</div>
+
+		<h2><u>Facilities for Online Learning</u></h2>
+		<div class="head1">
+			<p class="p1">We provide facilities for students for studies.</p><br>
+			<p class="p2"><b>#E mail & GDrive-</b> <i>After enrolled we provide unique email for every students with Google Drive space.</i><br><b>#Data Packages-</b> <i>For the data chargers we provide data packages only for learning platforms monthly.</i></p>
+		</div>
+		<div class="slider">
+			<div class="slides">
+				<input type="radio" name="radio-btn" id="radio1">
+				<input type="radio" name="radio-btn" id="radio2">
+				<input type="radio" name="radio-btn" id="radio3">
+				<input type="radio" name="radio-btn" id="radio4">
+
+				<div class="slide first">
+					<img src="images/s1.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="images/s2.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="images/s3.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="images/s4.jpg" alt="">
+				</div>
+				<div class="navigation-auto">
+					<div class="auto1"></div>
+					<div class="auto2"></div>
+					<div class="auto3"></div>
+					<div class="auto4"></div>
+				</div> 
+			</div>
+
+			<div class="navigation-manual">
+				<label for="radio1" class="manual-btn"></label>
+				<label for="radio2" class="manual-btn"></label>
+				<label for="radio3" class="manual-btn"></label>
+				<label for="radio4" class="manual-btn"></label>
+			</div>
+		</div>	
+	</div>
+
+	<script type="text/javascript">
+		var counter=1;
+		setInterval(function(){
+			document.getElementById('radio'+counter).checked=true;
+			counter++;
+			if(counter>4){
+				counter=1;
+			}
+		},5000);
+	</script>
+</body>
+</html>

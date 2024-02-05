@@ -1,0 +1,115 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: serif;
+}
+
+.main2{
+	background-image: url(courses.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+}
+
+.icons{
+	
+	margin-left: 10px;
+	display: flex;
+	height:40px;
+}
+
+#back{
+	position : sticky;
+	float:right;
+	height:40px;
+	width:40px;
+}
+
+.category1{
+	margin-top: 15px;
+}
+
+.heading1{
+	margin-left: 5px;
+	background-color: #0011;
+}
+
+h4{
+	margin-left: 10px;
+}
+
+p{
+	margin-left: 15px;
+}
+
+.category2{
+	margin-top: 15px;
+}
+
+.heading2{
+	margin-left: 5px;
+	background-color: #0ffc;
+}
+
+h4{
+	margin-left: 10px;
+}
+
+p{
+	margin-left: 15px;
+}
+
+.category3{
+	margin-top: 15px;
+}
+
+.heading3{
+	margin-left: 5px;
+	background-color: #aaf;
+}
+
+h4{
+	margin-left: 10px;
+}
+
+p{
+	margin-left: 15px;
+}
+
+.category4{
+	margin-top: 15px;
+}
+
+.heading4{
+	margin-left: 5px;
+	background-color: #abc;
+}
+
+h4{
+	margin-left: 10px;
+}
+
+p{
+	margin-left: 15px;
+}
+
+.category5{
+	margin-top: 15px;
+}
+
+.heading5{
+	margin-left: 5px;
+	background-color: #bcc;
+}
+
+h4{
+	margin-left: 10px;
+}
+
+p{
+	margin-left: 15px;
+}
+
+h2{
+	text-align: center;
+}
